@@ -5,12 +5,14 @@
         <link rel="icon" href="images/favicon.ico" type="image/x-icon">
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
         <!-- Styles-->
         <link rel="stylesheet" href="css/style.css">
         <!-- Scripts -->
         <script src="https://unpkg.com/scrollreveal@4"></script>
     </head>
     <body>
+        <button onclick="topFunction()" id="scrollToTopBtn" title="GoToTop"><i class="fas fa-arrow-up"></i></button>
         <div id="banner">
             <img src="images/banner.png" height="150px">
         </div>
@@ -107,5 +109,21 @@
             delay: 600,
             distance: '50px' 
         });
+
+        //ScrollToTop Button
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("scrollToTopBtn").style.display = "block";
+        } else {
+            document.getElementById("scrollToTopBtn").style.display = "none";
+        }
+        }
+
+        function topFunction() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }
     </script>
 </html>
