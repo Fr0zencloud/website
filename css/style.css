@@ -3,8 +3,8 @@ html {
 }
 
 body{
-    font-family: 'Lato', sans-serif;
-    margin: 0 auto;
+  font-family: 'Lato', sans-serif;
+  margin: 0 auto;
 }
 
 .content{
@@ -12,7 +12,7 @@ body{
   margin: auto;
   margin-bottom: 5em;
   width: 100%;
-    display: flex;
+  display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
@@ -42,13 +42,13 @@ body{
 }
 
 .text{
-    font-family: 'Lato';
-    font-size: 24px;
-    font-weight: 100;
-    margin: 0;
-    margin-bottom: 2em;
-    color: #333;
-    line-height: 34px;
+  font-family: 'Lato';
+  font-size: 24px;
+  font-weight: 100;
+  margin: 0;
+  margin-bottom: 2em;
+  color: #333;
+  line-height: 34px;
 }
 
 /* ScrollToTop Button */
@@ -73,14 +73,14 @@ body{
 
 /* Menu */
 ul {
-    margin-top: 0;
-    list-style-type: none;
-    padding: 0;
-    overflow: hidden;
-    background-color: #fff;
-    -webkit-box-shadow: 0 3px 10px -7px rgba(0,0,0,.75);
-    -moz-box-shadow: 0 3px 10px -7px rgba(0,0,0,.75);
-    box-shadow: 0 3px 10px -7px rgba(0,0,0,.75);
+  margin-top: 0;
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  background-color: #fff;
+  -webkit-box-shadow: 0 3px 10px -7px rgba(0,0,0,.75);
+  -moz-box-shadow: 0 3px 10px -7px rgba(0,0,0,.75);
+  box-shadow: 0 3px 10px -7px rgba(0,0,0,.75);
   }
   
   li {
